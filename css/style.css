@@ -11,7 +11,7 @@
     text-decoration: none;
     /* Remove underline from links */
     list-style: none;
-    /* Remove bullet points from lists */
+    /* Remove bullet points from lists */ 
   }
   
   
@@ -124,6 +124,7 @@
     /* Make the logo text bold */
     transition: 0.3 ease;
     /* Add a smooth transition effect */
+    
   }
   
   /* Hover effect for the logo ("folio title" */
@@ -140,6 +141,7 @@
   span {
     color: wheat(255, 217, 0);
     /* Set the span text color to yellow */
+    
   }
   
   /* Navbar links styling */
@@ -156,6 +158,7 @@
     /* Add a transparent underline for hover effect */
     transition: 0.3s ease;
     /* Smooth hover effect */
+    background-color: rgb(75, 83, 32);
   }
   
   /* Hover effect and active state for navbar links */
@@ -185,6 +188,7 @@
     /* Use light font weight */
     transition: 0.3s ease;
     /* Smooth hover effect */
+    background-color: rgb(75, 83, 32);
   }
   
   /* Hover effect for the "Contact" button */
@@ -213,7 +217,7 @@
     /* Center the image horizontally */
     align-items: center;
     /* Center the image vertically */
-    background-color: white;
+    background-color:white ;
     /* Set background color */
   }
   
@@ -235,7 +239,7 @@
     /* Set the home section to span the full width */
     min-height: 100vh;
     /* Set minimum height to full viewport */
-    background: wheat(241, 241, 241);
+    background:white;
     /* Set background color */
     display: flex;
     /* Use flexbox for layout */
@@ -283,6 +287,7 @@
     /* Use flexbox */
     gap: 2em;
     /* Add space between buttons */
+    
   }
   
   /* Style for button 1 */
@@ -370,19 +375,9 @@
     align-items: center;
     padding: 12% 8%;
     gap: 10em;
-    background: rgb(142, 150, 119);
-  
+    background:rgb(142, 150, 119);  
   }
-  
-  .about-img img {
-    position: relative;
-    width: 550px;
-    box-shadow: 0 0 25px rgb(255, 196, 0);
-    border-radius: 50%;
-  }
-  
   .about-content {
-  
     width: 100%;
     /* Allow the content to take the full width */
     max-width: 800px;
@@ -397,18 +392,19 @@
   
   .about-content h2 {
     text-align: left;
-    color: white;
+    color: black;
     font-size: 42px;
   }
   
   .about-content h3 {
     font-size: 62px;
-    color: white;
+    color: black;
   
   }
   
   .about-content p {
-    color: white;
+    text-align: left;
+    color: black;
     font-size: 20px;
     margin: 2em 0 3em;
   
@@ -425,6 +421,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 20px; /* Padding around the entire portfolio container */
+  
 }
 
 /* Adjust portfolio items for 2 columns */
@@ -597,20 +594,19 @@
 /* Section Title Styling */
 .section-title h2 {
   font-size: 2rem;
-  color: #333;
+  color:wheat;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
   font-weight: 700;
+  background-color: #303030;
 }
 
 .portfolio-heading h2 {
   font-size: 1.5rem;
-  color: #444;
+  color: #303030;
   text-align: center;
-  margin-bottom: 20px;
   font-weight: 600;
+  background-color: white;
 }
 
 
@@ -620,16 +616,19 @@
   /*Contact CODE START*/
   .contact-form h2 {
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 1em;
     font-size: 36px;
+    color: wheat;
+    background-color: #303030;
+    margin-bottom: auto;
+    
+    
   }
   
   .contact-form form {
-    margin: 1rem auto;
     text-align: center;
     margin-bottom: 3em;
     background-color:rgb(142, 150, 119);
+    
   
   }
   
@@ -641,6 +640,7 @@
     /* Horizontally center the elements */
     margin: 1rem auto;
     /* Center the form itself */
+    color: wheat;
     width: 100%;
     /* Optional: Ensure the form doesn't overflow */
   }
@@ -655,7 +655,7 @@
     /* Internal padding */
     font-size: 16px;
     /* Text size */
-    color: black;
+    color: #303030;
     /* Text color */
     background: wheat;
     /* Background color */
