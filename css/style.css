@@ -371,8 +371,9 @@
   /*ABOUT SECTION CODE START*/
   .about {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    margin-left: -550px;
     padding: 12% 8%;
     gap: 10em;
     background:rgb(142, 150, 119);  
@@ -397,6 +398,7 @@
   }
   
   .about-content h3 {
+    text-align: left;
     font-size: 62px;
     color: black;
   
@@ -626,19 +628,12 @@
   
   .contact-form form {
     text-align: center;
-    margin-bottom: 3em;
     background-color:rgb(142, 150, 119);
-    
-  
-  }
-  
-  .contact-form form {
     display: flex;
     flex-direction: column;
     /* Stack input boxes and textarea vertically */
     align-items: center;
     /* Horizontally center the elements */
-    margin: 1rem auto;
     /* Center the form itself */
     color: wheat;
     width: 100%;
