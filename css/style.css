@@ -373,7 +373,7 @@
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-left: -550px;
+    margin-left: -550px; /* align the whole class to the left*/
     padding: 12% 8%;
     gap: 10em;
     background:rgb(142, 150, 119);  
@@ -699,26 +699,8 @@
     box-shadow:inset 0 0 10px #303030, 0 0 10px #303030;
     transition: 0.3s ease;
   }
-  .footer .Socials b{
-    font-size: 35px;
-    color: wheat;
-    border: 2px solid wheat;
-    width: 40px;
-    height: 40px;
-    line-height:  38px;
-    display: inline-block;
-    text-align: center;
-    border-radius:50%;
-    margin: 0 8px;
-    box-shadow:inset 0 0 10px #303030 , 0 0 10px #303030;
-    transition: 0.3s ease;
-  }
+  /* facebook hoover effect*/
   .footer .Socials a:hover{
-    transform: scale(1.2)translate(-10px);
-    color: orangered;
-    border: 2px solid orangered;
-  }
-  .footer .Socials b:hover{
     transform: scale(1.2)translate(-10px);
     color: rgb(64, 2, 251);
     border: 2px rgb(64, 2, 251);
